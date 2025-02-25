@@ -1,0 +1,152 @@
+{
+  "20PA1A0412": {
+    "python-arithmetic-operators": {
+      "problem_slug": "python-arithmetic-operators",
+      "username": "20PA1A0412",
+      "language": "python",
+      "time": 42935,
+      "result": "Accepted",
+      "score": 10,
+      "srclink": "https://www.hackerrank.com/contests/test-contest00/challenges/python-arithmetic-operators/submissions/code/1334643251",
+      "source_code": "if __name__ == '__main__':\n    a = int(raw_input())\n    b = int(raw_input())\n    print(a+b)\n    print(a-b)\n    print(a*b)"
+    },
+    "py-hello-world": {
+      "problem_slug": "py-hello-world",
+      "username": "20PA1A0412",
+      "language": "pypy",
+      "time": 30707,
+      "result": "Accepted",
+      "score": 10
+    },
+    "print-the-elements-of-a-linked-list-in-reverse": {
+      "problem_slug": "print-the-elements-of-a-linked-list-in-reverse",
+      "username": "20PA1A0412",
+      "language": "python3",
+      "time": 30611,
+      "result": "Accepted",
+      "score": 10,
+      "srclink": "https://www.hackerrank.com/contests/test-contest00/challenges/print-the-elements-of-a-linked-list-in-reverse/submissions/code/1334402931",
+      "source_code": "#\n# Complete the 'reversePrint' function below.\n#\n# The function accepts INTEGER_SINGLY_LINKED_LIST llist as parameter.\n#\n​\n#\n# For your reference:\n#\n# SinglyLinkedListNode:\n#     int data\n#     SinglyLinkedListNode next\n#\n#\n​\ndef reversePrint(head):\n    # Write your code here\n    \n    if head is None:\n        return\n    else:\n        out = []\n        node = head\n        \n        while node != None:\n            out.append(node.data)\n            node = node.next\n            \n        print(\"\\n\".join(map(str, out[::-1])))"
+    },
+    "python-loops": {
+      "problem_slug": "python-loops",
+      "username": "20PA1A0412",
+      "language": "python3",
+      "time": 30606,
+      "result": "Accepted",
+      "score": 10,
+      "srclink": "https://www.hackerrank.com/contests/test-contest00/challenges/python-loops/submissions/code/1334402809",
+      "source_code": "if __name__ == '__main__':\n    n = int(input())\n    for i in range(n):\n        print(i**2)"
+    }
+  },
+  "20Pa1a5430": {
+    "python-loops": {
+      "problem_slug": "python-loops",
+      "username": "20Pa1a5430",
+      "language": "python3",
+      "time": 1298,
+      "result": "Accepted",
+      "score": 10,
+      "srclink": "https://www.hackerrank.com/contests/test-contest00/challenges/python-loops/submissions/code/1333807672",
+      "source_code": "​\nn = int(input())\nfor i in range(n):\n    print(i*i) \n    "
+    },
+    "python-print": {
+      "problem_slug": "python-print",
+      "username": "20Pa1a5430",
+      "language": "python3",
+      "time": 1296,
+      "result": "Accepted",
+      "score": 20,
+      "srclink": "https://www.hackerrank.com/contests/test-contest00/challenges/python-print/submissions/code/1333807631",
+      "source_code": "​\nn = int(input())\nfor i in range(1,n+1):\n    print(i, end=\"\") "
+    },
+    "write-a-function": {
+      "problem_slug": "write-a-function",
+      "username": "20Pa1a5430",
+      "language": "python3",
+      "time": 1294,
+      "result": "Accepted",
+      "score": 10,
+      "srclink": "https://www.hackerrank.com/contests/test-contest00/challenges/write-a-function/submissions/code/1333807580",
+      "source_code": "def is_leap(year):\n    if (year%400==0 or (year%4==0 and year%100!=0)):\n        return True\n    else:\n        return False \n    \n    \n    # Write your logic here\n    \n    "
+    }
+  },
+  "20pa1a5435": {
+    "python-loops": {
+      "problem_slug": "python-loops",
+      "username": "20pa1a5435",
+      "language": "python3",
+      "time": 1310,
+      "result": "Accepted",
+      "score": 10,
+      "srclink": "https://www.hackerrank.com/contests/test-contest00/challenges/python-loops/submissions/code/1333808050",
+      "source_code": "n=int(input())\ns=0\nwhile(s<n):\n    i=s**2\n    print(i)\n    s=s+1"
+    },
+    "python-print": {
+      "problem_slug": "python-print",
+      "username": "20pa1a5435",
+      "language": "python3",
+      "time": 1308,
+      "result": "Accepted",
+      "score": 20,
+      "srclink": "https://www.hackerrank.com/contests/test-contest00/challenges/python-print/submissions/code/1333807968",
+      "source_code": "n=int(input())\ns=0\nwhile(s<n):\n    s=s+1\n    print(str(s),end=\"\")"
+    },
+    "write-a-function": {
+      "problem_slug": "write-a-function",
+      "username": "20pa1a5435",
+      "language": "python3",
+      "time": 1304,
+      "result": "Accepted",
+      "score": 10,
+      "srclink": "https://www.hackerrank.com/contests/test-contest00/challenges/write-a-function/submissions/code/1333807851",
+      "source_code": "def is_leap(year):\n    if ((year%4==0 and year%100!=0) or (year%400==0)):\n        return True\n    else:\n        return False\n   \n​\n   "
+    }
+  },
+  "venkatsudarshan1": {
+    "py-hello-world": {
+      "problem_slug": "py-hello-world",
+      "username": "venkatsudarshan1",
+      "language": "python3",
+      "time": 1961205,
+      "result": "Accepted",
+      "score": 10,
+      "srclink": "https://www.hackerrank.com/contests/test-contest00/challenges/py-hello-world/submissions/code/1388781140",
+      "source_code": "print(\"Hello, World!\")"
+    },
+    "write-a-function": {
+      "problem_slug": "write-a-function",
+      "username": "venkatsudarshan1",
+      "language": "python3",
+      "time": 1961204,
+      "result": "Accepted",
+      "score": 10,
+      "srclink": "https://www.hackerrank.com/contests/test-contest00/challenges/write-a-function/submissions/code/1388781099",
+      "source_code": ""
+    }
+  },
+  "20PA1A0428": {
+    "write-a-function": {
+      "problem_slug": "write-a-function",
+      "username": "20PA1A0428",
+      "language": "python",
+      "time": 1297,
+      "result": "Wrong Answer",
+      "score": 4,
+      "srclink": "https://www.hackerrank.com/contests/test-contest00/challenges/write-a-function/submissions/code/1333807663",
+      "source_code": ""
+    }
+  },
+  "baluakula2000": {
+    "write-a-function": {
+      "problem_slug": "write-a-function",
+      "username": "baluakula2000",
+      "language": "python3",
+      "time": 1264,
+      "result": "Wrong Answer",
+      "score": 0,
+      "srclink": "https://www.hackerrank.com/contests/test-contest00/challenges/write-a-function/submissions/code/1333807108",
+      "source_code": ""
+    }
+  }
+}
