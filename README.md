@@ -1,3 +1,6 @@
+Based on Python Puppeteer WebScrapping 
+This project is to webscrape the hackerrank dashboard of the students and get the attempts of each student and challenges and store it int the MongoDB                        
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
