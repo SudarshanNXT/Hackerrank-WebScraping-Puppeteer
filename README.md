@@ -1,8 +1,15 @@
 Based on Puppeteer WebScrapping using Next. js and Express.js 
-This project is to webscrape the hackerrank dashboard of the students and get the attempts of each student and challenges and store it int the MongoDB                        
+This project is to webscrape the hackerrank dashboard of the students and get the attempts of each student and challenges and store it int the MongoDB    
+                    
 ![img alt](https://github.com/SudarshanNXT/Hackerrank-WebScraping-Puppeteer/blob/main/Screenshot%202025-03-07%20071943.png)
 
+Fetch Latest : scrap the hackerrank and checks for latest attempts by user for a particular challenges
+
+Fetch Old : retrieve data from DB
+
 ![img alt](https://github.com/SudarshanNXT/Hackerrank-WebScraping-Puppeteer/blob/main/Screenshot%202025-03-07%20072009.png)
+
+Plagiarism Check : to find similarity in the code
 
 ![img alt](https://github.com/SudarshanNXT/Hackerrank-WebScraping-Puppeteer/blob/main/Screenshot%202025-03-07%20072009.png)
 
